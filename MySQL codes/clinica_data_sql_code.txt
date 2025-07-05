@@ -1,0 +1,49 @@
+CREATE TABLE clinical_data (
+    data_id INT AUTO_INCREMENT PRIMARY KEY,
+    patient_id INT NOT NULL COMMENT 'References patients.patient_id',
+
+    unit_system ENUM('imperial', 'metric') NOT NULL DEFAULT 'imperial' COMMENT 'Units used for height, weight, waist circumference',
+
+    height DECIMAL(5,2) NOT NULL COMMENT 'Patient height: inches if imperial, cm if metric',
+    weight DECIMAL(5,2) NOT NULL COMMENT 'Patient weight: pounds if imperial, kg if metric',
+    bmi DECIMAL(5,2) COMMENT 'Body Mass Index, calculated from height and weight' CHECK (bmi BETWEEN 10.00 AND 80.00),
+    waist_circumference DECIMAL(5,2) NOT NULL COMMENT 'Waist circumference: inches if imperial, cm if metric',
+
+    weight_class ENUM(
+        'underweight', 'normal', 'overweight', 
+        'overweight_class_i', 'obese_class_i', 'obese_class_ii', 
+        'extremely_obese_class_iii'
+    ) COMMENT 'Clinical weight categories based on BMI ranges',
+
+    disease_risk ENUM(
+        'average', 'increased', 'high', 
+        'very_high', 'severe', 'extremely_high'
+    ) COMMENT 'Risk of disease based on clinical assessment',
+
+    systolic_bp INT COMMENT 'Systolic blood pressure in mmHg' CHECK (systolic_bp BETWEEN 70 AND 250),
+    diastolic_bp INT COMMENT 'Diastolic blood pressure in mmHg' CHECK (diastolic_bp BETWEEN 40 AND 150),
+
+    blood_glucose_lvl DECIMAL(5,2) COMMENT 'Blood glucose level in mg/dL' CHECK (blood_glucose_lvl BETWEEN 40.00 AND 600.00),
+    hemoglobin_a1c DECIMAL(5,2) COMMENT 'Hemoglobin A1c percentage' CHECK (hemoglobin_a1c BETWEEN 3.00 AND 15.00),
+
+    ldl_cholesterol INT COMMENT 'LDL cholesterol in mg/dL' CHECK (ldl_cholesterol BETWEEN 0 AND 300),
+    hdl_cholesterol INT COMMENT 'HDL cholesterol in mg/dL' CHECK (hdl_cholesterol BETWEEN 10 AND 150),
+    triglycerides_lvl INT COMMENT 'Triglycerides in mg/dL' CHECK (triglycerides_lvl BETWEEN 0 AND 1000),
+
+    alt_enzyme_lvl INT COMMENT 'ALT liver enzyme in U/L' CHECK (alt_enzyme_lvl BETWEEN 0 AND 300),
+    ast_enzyme_lvl INT COMMENT 'AST liver enzyme in U/L' CHECK (ast_enzyme_lvl BETWEEN 0 AND 300),
+    ggt_enzyme_lvl INT COMMENT 'GGT liver enzyme in U/L' CHECK (ggt_enzyme_lvl BETWEEN 0 AND 200),
+
+    urine_albumin_lvl DECIMAL(5,2) COMMENT 'Urine albumin level (mg/L or mg/dL)' CHECK (urine_albumin_lvl BETWEEN 0 AND 100),
+    urine_creatinine_lvl DECIMAL(5,2) COMMENT 'Urine creatinine level (mg/dL)' CHECK (urine_creatinine_lvl BETWEEN 0 AND 400),
+    urine_glucose_lvl DECIMAL(5,2) COMMENT 'Urine glucose level (mg/dL)' CHECK (urine_glucose_lvl BETWEEN 0 AND 1000),
+    urine_ketones_lvl DECIMAL(5,2) COMMENT 'Urine ketones level (mg/dL)' CHECK (urine_ketones_lvl BETWEEN 0 AND 80),
+
+    recorded_at TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT 'Timestamp when this record was created',
+    updated_at TIMESTAMP NULL DEFAULT NULL ON UPDATE CURRENT_TIMESTAMP COMMENT 'Timestamp when this record was last updated',
+
+    FOREIGN KEY (patient_id) REFERENCES patients(patient_id)
+);
+
+
+CREATE INDEX idx_clinical_data_patient_date ON clinical_data(patient_id, recorded_at);
