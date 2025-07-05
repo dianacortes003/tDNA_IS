@@ -1,0 +1,4 @@
+CREATE TABLE countries (
+    country_code CHAR(3) PRIMARY KEY,  -- ISO 3166 alpha-3 (e.g. 'USA', 'JAN', 'MEX')
+    country_name VARCHAR(100) NOT NULL
+);

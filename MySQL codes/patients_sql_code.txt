@@ -1,0 +1,11 @@
+CREATE TABLE patients (
+    patient_id INT AUTO_INCREMENT PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    date_of_birth DATE,
+    gender ENUM('Male', 'Female', 'Other'),
+    ethnicity VARCHAR(100),
+    country_code CHAR(3),
+    created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP,
+    FOREIGN KEY (country_code) REFERENCES countries(country_code)
+);
