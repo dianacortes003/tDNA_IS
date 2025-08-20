@@ -1,1 +1,0 @@
-CREATE INDEX idx_clinical_data_patient_date ON clinical_data(patient_id, recorded_at);
