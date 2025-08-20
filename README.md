@@ -4,10 +4,10 @@
 This project transforms the proposed **Transcultural Diabetes-Specific Nutrition Algorithm (tDNA)** by **_Mechanick et al. (2012)_**[^1]  into a clinical information system. This implementation aims to digitize and automate the recommended approach for enhancing diabetes and prediabetes care through culturally adaptive nutrition guidance. 
 
 The repository contents include:
+- Python implementations of the _tDNA_ logic in simple and complete versions
 - A flowchart modeling the clinical logic of the _tDNA_
-- A pseudocode version of the _tDNA_ logic
-- Python implementations of the tDNA logic
-- A system integration diagram showing how the tDNA engine interfaces with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database. 
+- A system integration diagram showing how the tDNA engine interfaces with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database
+
 
 This project bridges evidence-based clinical guidelines with health IT systems, supporting scalable integration into hospital infrastructure and global data networks. Ideal for use by clinical informatics professionals, developers, and researchers in digital health.
 _________________
