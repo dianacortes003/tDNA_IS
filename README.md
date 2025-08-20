@@ -6,7 +6,7 @@ This project transforms the proposed **Transcultural Diabetes-Specific Nutrition
 The repository contents include:
 - A flowchart modeling the clinical logic of the _tDNA_
 - A pseudocode version of the _tDNA_ logic
-- Java and Python implementations of the tDNA logic
+- Python implementations of the tDNA logic
 - A system integration diagram showing how the tDNA engine interfaces with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database. 
 
 This project bridges evidence-based clinical guidelines with health IT systems, supporting scalable integration into hospital infrastructure and global data networks. Ideal for use by clinical informatics professionals, developers, and researchers in digital health.
@@ -20,7 +20,7 @@ _________________
 ### Purpose & Goals
   
 #### Purpose
-The purpose of the tDNA is to address the gap in the efficacy of nutritional guidelines when applied to a variety of ethnocultural population classifications by considering genetic, cultural, and regional factors in diabetes care. Many diabetes nutritional and lifestyle CPGs originate from research made in developed countries with a sometimes undiversified pool of subjects. We know that some populations have a higher risk of certain conditions than others. However, these variations are not always possible to include in generalized CPG research study outcomes.  
+The purpose of the tDNA is to address the gap in the efficacy of nutritional guidelines when applied to a variety of ethnocultural population classifications by considering genetic, cultural, and regional factors in diabetes care. Many diabetes nutritional and lifestyle CPGs originate from research made in developed countries with an often undiversified pool of subjects. We know that some populations have a higher risk of certain conditions than others. However, these variations are not always possible to include in generalized CPG research study outcomes.  
 When transcultural factors are not weighted in the clinical decision processes, the "promised" effectiveness of the CPGs can be compromised.
 
 >_Finally, CPGs may not be able to be generalized for all patients or populations. Patient age, gender, and genomics, as well as culture, customs, and environment, must be factored into any decision to apply a particular recommendation to a particular patient in particular settings (Mechanick et al., 2012)_
@@ -95,14 +95,14 @@ After this initial publication of the tDNA, researchers and task force members h
 #### Limitations
 
 ##### Inequitable local adaptation capabilities
-Despite the algorithm's best efforts to include a variety of transcultural factors in the stratification process, the overall gap in available information on underrepresented populations is still an issue. 
+Despite the algorithm's best efforts to include a variety of transcultural factors in the stratification process, the overall gap in available information on underrepresented populations remains a significant challenge. 
 
-Additionally, the article mentions the inequity of general nutrition education both from an availability and cultural resistance perspective. 
+Additionally, the article mentions the inequity of general nutrition education, both from an availability and cultural resistance perspective. 
 
 Lastly, one of the algorithms' output recommendations includes diabetes-specific liquid meal formulas. These formulas are not always accessible to many patients. 
 
 ##### No HIS integration evidence 
-As previously mentioned, the _tDNA_ is a decision-tree tool for clinicians, and it has not been formally converted into a health information system (HIS). Therefore, there is no current evidence of its efficacy in that format nor the true needs and capabilities for integration into a hospital's information system,  
+As previously mentioned, the _tDNA_ is a decision-tree tool for clinicians, and it has not been formally converted into a health information system (HIS). Therefore, there is no current evidence of its efficacy in that format, nor the true needs and capabilities for integration into a hospital's information system.  
 
 </details>
 
