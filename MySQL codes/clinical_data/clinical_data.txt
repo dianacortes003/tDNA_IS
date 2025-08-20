@@ -1,0 +1,18 @@
+INSERT INTO clinical_data (
+    patient_id, unit_system, height, weight, bmi, waist_circumference,
+    systolic_bp, diastolic_bp,
+    blood_glucose_lvl, hemoglobin_a1c,
+    ldl_cholesterol, hdl_cholesterol, triglycerides_lvl,
+    alt_enzyme_lvl, ast_enzyme_lvl, ggt_enzyme_lvl,
+    urine_albumin_lvl, urine_creatinine_lvl, urine_glucose_lvl, urine_ketones_lvl
+)
+VALUES
+(1, 'imperial', 70.00, 180.00, 25.82, 36.00, 120, 80, 95.00, 5.5, 110, 50, 150, 25, 22, 35, 10.0, 120.0, 5.0, 0.5),
+
+(2, 'metric', 165.00, 60.00, 22.04, 70.00, 115, 75, 90.00, 5.2, 100, 60, 120, 30, 28, 40, 5.0, 90.0, 4.0, 0.2),
+
+(3, 'imperial', 68.00, 200.00, 30.42, 40.00, 135, 85, 110.00, 6.2, 140, 45, 200, 40, 35, 50, 15.0, 150.0, 15.0, 2.0),
+
+(4, 'metric', 160.00, 50.00, 19.53, 65.00, 110, 70, 85.00, 5.0, 90, 55, 100, 20, 18, 25, 3.0, 80.0, 2.0, 0.1),
+
+(5, 'metric', 175.00, 75.00, 24.49, 82.00, 125, 82, 100.00, 5.7, 120, 60, 140, 28, 25, 32, 8.0, 110.0, 6.0, 0.4);

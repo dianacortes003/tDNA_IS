@@ -1,0 +1,38 @@
+INSERT INTO patients (first_name, last_name, date_of_birth, gender, ethnicity, country_code)
+VALUES
+('John', 'Smith', '1985-03-12', 'Male', 'Caucasian', 'USA'),
+('Maria', 'Gonzalez', '1992-07-25', 'Female', 'Hispanic', 'MEX'),
+('Ahmed', 'Khan', '1978-11-05', 'Male', 'South Asian', 'PAK'),
+('Yuki', 'Tanaka', '1995-04-19', 'Female', 'East Asian', 'JPN'),
+('Arjun', 'Patel', '1988-01-30', 'Male', 'South Asian', 'IND'),
+('Sophia', 'Williams', '2000-09-14', 'Female', 'Caucasian', 'CAN'),
+('Mei', 'Chen', '1983-06-22', 'Female', 'East Asian', 'CHN'),
+('Ali', 'Al-Sayed', '1975-12-10', 'Male', 'Middle Eastern', 'SAU'),
+('Olivia', 'Brown', '1999-08-03', 'Female', 'African American', 'USA'),
+('Hassan', 'Youssef', '1981-10-27', 'Male', 'Middle Eastern', 'EGY'),
+('Min-Joon', 'Park', '1993-05-07', 'Male', 'East Asian', 'KOR'),
+('Fatima', 'Abdullah', '1986-02-15', 'Female', 'Middle Eastern', 'ARE'),
+('Lucas', 'Müller', '1990-07-01', 'Male', 'European', 'DEU'),
+('Siti', 'Nurhaliza', '1997-03-18', 'Female', 'Southeast Asian', 'MYS'),
+('Dmitry', 'Ivanov', '1984-12-29', 'Male', 'Slavic', 'RUS');
+
+
+
+
+INSERT INTO patients (patient_id, first_name, last_name, date_of_birth, gender, ethnicity, country_code)
+VALUES
+(1, 'Will', 'Smith', '1985-03-12', 'Male', 'Caucasian', 'USA'),
+(2, 'Amelia', 'Brown', '1990-07-25', 'Female', 'European', 'GBR'),
+(3, 'Carlos', 'Martinez', '1978-11-05', 'Male', 'Hispanic', 'MEX'),
+(4, 'Mei', 'Chen', '1995-04-19', 'Female', 'East Asian', 'CHN'),
+(5, 'Arjun', 'Patel', '1988-01-30', 'Male', 'South Asian', 'IND'),
+(6, 'Sophia', 'Dubois', '1992-09-14', 'Female', 'European', 'FRA'),
+(7, 'Ahmed', 'Al-Sayed', '1975-12-10', 'Male', 'Middle Eastern', 'SAU'),
+(8, 'Lara', 'Müller', '1983-06-22', 'Female', 'European', 'DEU'),
+(9, 'Fatima', 'Abdullah', '1986-02-15', 'Female', 'Middle Eastern', 'ARE'),
+(10, 'Hiroshi', 'Tanaka', '1993-05-07', 'Male', 'East Asian', 'JPN'),
+(11, 'Lucas', 'Silva', '1990-07-01', 'Male', 'Latino', 'BRA'),
+(12, 'Nadia', 'Khan', '1997-03-18', 'Female', 'South Asian', 'PAK'),
+(13, 'Michael', 'Johnson', '1984-12-29', 'Male', 'African American', 'USA'),
+(14, 'Aisha', 'Hassan', '1991-11-03', 'Female', 'Middle Eastern', 'EGY'),
+(15, 'David', 'Nguyen', '1989-04-21', 'Male', 'Southeast Asian', 'MYS');
