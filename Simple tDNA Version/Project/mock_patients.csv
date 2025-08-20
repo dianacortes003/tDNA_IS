@@ -1,0 +1,5 @@
+id,name,ethnicity,sex,bmi,wc_cm,risk_factors
+1,Maria Garcia,Mexican American,F,25.8,73.6,family/patient history of cardiovascular disease/event|hypertension
+2,Jin Kim,Asian American,F,31.4,102.9,sleep disturbance|low activity
+3,Ken Smith,American,M,18.4,39.2,none
+4,Luis Patel,South Asian,M,20.3,72.0,hypertension
