@@ -1,4 +1,6 @@
 '''
+COMPLETE VERSION
+
 The program contains attributes and methods of the class PatientManager.
 Controls operations requested by main_tDNA and calls methods from patient.py
 
