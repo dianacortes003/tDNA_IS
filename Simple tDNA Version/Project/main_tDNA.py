@@ -72,7 +72,7 @@ def patient_menu(patient):
             generate_rec_handout(patient)
             while True:
                 next_action = input(
-                    f"Would you like to do now?\n"
+                    f"What would you like to do now?\n"
                     f"  (1) Go back to main menu\n"
                     f"  (x) Exit the program\n"
                     f"  > Enter your choice: "
