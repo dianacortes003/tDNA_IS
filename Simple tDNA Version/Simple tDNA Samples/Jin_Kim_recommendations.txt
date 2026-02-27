@@ -1,0 +1,93 @@
+Visit Date and Time: 2026-02-26 19:27:14
+
+--------------------------------------------------------------------------------
+PATIENT INFORMATION:
+
+ID: 2
+Name: Jin Kim
+Ethnicity: Asian American
+Sex: F
+Risk Factors: {'severe risk diabetes', 'low activity', 'sleep disturbance'}
+BMI: 31.4
+BMI Category: Extremely obese - Class III
+Waist Circumference: 102.9
+Recommendations: ('Increase physical activity',)
+
+--------------------------------------------------------------------------------
+COMMON INTERNATIONAL FOODS WITH THEIR GLYCEMIC INDICES:
+
+High GI foods by category:
+  Common Foods:
+    - White wheat bread (GI: 75)
+    - Whole wheat bread (GI: 74)
+    - White rice (GI: 73)
+  Dairy:
+    - Rice milk (GI: 86)
+  Cereals:
+    - Cornflakes (GI: 81)
+    - Instant oat meal (GI: 79)
+    - Rice congee (GI: 78)
+  Fruits:
+    - Watermelon (GI: 76)
+  Vegetables:
+    - Potato, boiled (GI: 78)
+    - Potato, instant mash (GI: 87)
+
+Medium GI foods by category:
+  Common Foods:
+    - Wheat roti (GI: 62)
+    - Brown rice (GI: 68)
+    - Couscous (GI: 65)
+  Cereals:
+    - Muesli (GI: 57)
+    - Millet porridge (GI: 67)
+    - Biscuits (GI: 69)
+  Fruits:
+    - Pineapple (GI: 59)
+  Vegetables:
+    - Potato, fried (GI: 63)
+    - Sweet potato (GI: 63)
+    - Pumpkin, boiled (GI: 64)
+  Snacks:
+    - Popcorn (GI: 65)
+    - Potato chips (GI: 56)
+    - Soda (GI: 59)
+
+Low GI foods by category:
+  Common Foods:
+    - Multigrain bread (GI: 53)
+    - Chapati (GI: 52)
+    - Corn tortilla (GI: 46)
+    - Barley (GI: 28)
+    - Corn (GI: 52)
+    - Spaghetti (GI: 49)
+    - Rice noodles (GI: 53)
+    - Udon noodles (GI: 55)
+  Dairy:
+    - Whole milk (GI: 39)
+    - Skim milk (GI: 37)
+    - Soy milk (GI: 37)
+    - Ice cream (GI: 51)
+    - Yogurt (GI: 41)
+  Cereals:
+    - Rolled oat meal (GI: 55)
+  Fruits:
+    - Apple (GI: 36)
+    - Banana (GI: 51)
+    - Dates (GI: 42)
+    - Mango (GI: 51)
+    - Orange (GI: 43)
+    - Peaches (GI: 43)
+  Vegetables:
+    - Carrots, boiled (GI: 39)
+    - Plantain (GI: 55)
+    - Taro, boiled (GI: 53)
+    - Vegetable soup (GI: 48)
+  Legumes:
+    - Chickpeas (GI: 28)
+    - Kidney beans (GI: 24)
+    - Lentils (GI: 32)
+    - Soy beans (GI: 16)
+  Snacks:
+    - Chocolate (GI: 40)
+
