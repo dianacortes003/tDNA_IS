@@ -126,6 +126,13 @@ class Patient:
 
         self.bmi_category = bmi_category
 
+        # Remove any existing diabetes risk labels
+        self.risk_factors = {
+            rf for rf in self.risk_factors
+            if "diabetes" not in rf
+        }
+
+        # Add updated diabetes risk if applicable
         if "risk" in risk and "average" not in risk:
             self.risk_factors.add(risk + " diabetes")
 
