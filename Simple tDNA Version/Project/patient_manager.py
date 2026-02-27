@@ -87,17 +87,17 @@ class PatientManager:
         patients_list = self.import_patients(self.file_name)
         if not patients_list:
             print("No patients found.")
-            return "new"  # Suggest new entry if file is empty
+            return None  # Goes back to Main Menu if file is empty
         
         pt_dict = self.display_patient_directory(patients_list)
 
         while True:
             user_input = input(f"> Enter the ID of the patient "
                                f"you would like to select "
-                               f"(or type 'new' to add a new patient): ").strip()
+                               f"(or type 'm' to return to Main Menu): ").strip()
             
-            if user_input.lower() == "new":
-                return "new"
+            if user_input.lower() == "m":
+                return None
 
             try:
                 selected_id = int(user_input)
