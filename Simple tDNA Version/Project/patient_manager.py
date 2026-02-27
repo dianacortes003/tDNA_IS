@@ -372,8 +372,11 @@ class PatientManager:
             writer.writerow(["id", "name", "ethnicity", "sex", "bmi", "wc_cm", "risk_factors"])
 
             for pt in patients_list:
-                risk_factor_field = "none" if len(pt.risk_factors) == 0 or None in pt.risk_factors \
-                                    else "|".join(pt.risk_factors)
+                risk_factor_field = (
+                    "none"
+                    if not pt.risk_factors or None in pt.risk_factors
+                    else "|".join(sorted(pt.risk_factors))
+                )
 
                 writer.writerow([
                     pt.id,
