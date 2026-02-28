@@ -16,8 +16,15 @@ The repository contents include:
 This project bridges evidence-based clinical guidelines with health IT systems, supporting scalable integration into hospital infrastructure and global data networks. Ideal for use by clinical informatics professionals, developers, and researchers in digital health.
 
 <p align="center">
+  <img src="https://github.com/dianacortes003/tDNA_IS/blob/main/Simple%20tDNA%20Version/Flowchart%20%26%20diagram/modeled_flowchart_tDNA.png" />
+</p>
+
+<details>
+<summary>ORIGINAL ALGORITHM (IMAGE)</summary>
+<p align="center">
   <img src="https://github.com/dianacortes003/tDNA_IS/blob/main/Simple%20tDNA%20Version/Flowchart%20%26%20diagram/original_algorithm_tDNA.png" />
 </p>
+</details>
 
 -----
 
