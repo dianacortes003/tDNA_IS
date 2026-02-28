@@ -29,8 +29,11 @@ A full example of the program in action is available in the [Simple tDNA Samples
 
 ## How to use
 
+>The program only utilizes the built-in modules `datetime`, `csv`, and `os`. **No installation of third-party Python modules is necessary**.
+
+
 To run this program locally:
-1. Download or clone this repository to your local machine.
+1. Download [Simple tDNA Program](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version/Simple%20tDNA%20Program) folder or clone this repository to your local machine.
 2. Open the project folder in a code editor such as Cursor or Visual Studio Code.
 3. Ensure the following 6 files are located in the same directory:
 
@@ -43,8 +46,8 @@ To run this program locally:
 
 4. Run `main_tDNA.py` from the terminal to start the program.
 
+>This project was designed following Object-Oriented Programming (OOP) principles. The supporting modules (e.g., `patient_manager.py`, `patient.py`) define classes and supporting logic and are not intended to be executed directly. **The program should be run EXCLUSIVELY through `main_tDNA.py`.**
 
->The program only utilizes the built-in modules `datetime`, `csv`, and `os`. **No installation of third-party Python modules is necessary**. 
 
 The program has a user-friendly interface with prompts that provide options for navigating its different features.
 
@@ -57,6 +60,6 @@ The core functionalities that the interface will offer are:
 
 ### Unit Test File
 
-There is an additional 7th file, `unit_test_tDNA.py`, which contains functions that test the program's core methods and functions. This file is not needed to run the program, but the other 6 files are required to run this unit test. 
+The project's folder contains a 7th file, `unit_test_tDNA.py`, which defines functions that test the program's core methods. This file is not needed to run the program, but the other 6 files are required to run this unit test. 
 
 The unit test file includes lines of code that automatically delete any files created during test execution. To avoid test files from automatically deleting, convert to comments the code lines 352, and 404-406.
