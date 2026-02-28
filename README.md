@@ -7,8 +7,8 @@ The repository contents include:
 - A completed [Simple tDNA Version](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version)
   - A [Python implementation](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version/Simple%20tDNA%20Program) of the _tDNA_ clinical logic
   - A [demonstration](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version/Simple%20tDNA%20Samples) of the simple tDNA version program running and results
-  - A [flowchart](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/modeled_flowchart_tDNA.png) modeling the clinical logic of the _tDNA_
-  - A high-level [system integration diagram](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/system_integration_tDNA.png) showing how the tDNA engine would hypothetically interface with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database
+  - A [flowchart](https://github.com/dianacortes003/tDNA_IS/blob/main/Simple%20tDNA%20Version/Flowchart%20%26%20diagram/modeled_flowchart_tDNA.png) modeling the clinical logic of the _tDNA_
+  - A high-level [system integration diagram](https://github.com/dianacortes003/tDNA_IS/blob/main/Simple%20tDNA%20Version/Flowchart%20%26%20diagram/system_integration_tDNA.png) showing how the tDNA engine would hypothetically interface with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database
 - A PDF copy of the [original research article](https://github.com/dianacortes003/tDNA_IS/blob/main/MechanickEtAl_2012_tDNA.pdf)
 - A Complete tDNA Version (Under Development)
   - >A more advanced and clinically comprehensive implementation currently in progress
@@ -16,7 +16,7 @@ The repository contents include:
 This project bridges evidence-based clinical guidelines with health IT systems, supporting scalable integration into hospital infrastructure and global data networks. Ideal for use by clinical informatics professionals, developers, and researchers in digital health.
 
 <p align="center">
-  <img src="https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/original_algorithm_tDNA.png" alt="Original tDNA Algorithm" />
+  <img src="https://github.com/dianacortes003/tDNA_IS/blob/main/Simple%20tDNA%20Version/Flowchart%20%26%20diagram/original_algorithm_tDNA.png" />
 </p>
 
 -----
