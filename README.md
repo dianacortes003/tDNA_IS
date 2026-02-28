@@ -4,26 +4,22 @@
 This project transforms the proposed **Transcultural Diabetes-Specific Nutrition Algorithm (tDNA)** by **_Mechanick et al. (2012)_**[^1]  into a clinical information system. This implementation aims to digitize and automate the recommended approach for enhancing diabetes and prediabetes care through culturally adaptive nutrition guidance. 
 
 The repository contents include:
-- Python implementations of the _tDNA_ logic in [simple](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version) (finished) and complete (under development) versions
-- A PDF copy of the [research article](https://github.com/dianacortes003/tDNA_IS/blob/main/MechanickEtAl_2012_tDNA.pdf)
-- A [flowchart](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/modeled_flowchart_tDNA.png) modeling the clinical logic of the _tDNA_
-- A high-level [system integration diagram](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/system_integration_tDNA.png) showing how the tDNA engine interfaces with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database
-
+- A completed [Simple tDNA Version](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version)
+  - A [Python implementation](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version/Simple%20tDNA%20Program) of the _tDNA_ clinical logic
+  - A [demonstration](https://github.com/dianacortes003/tDNA_IS/tree/main/Simple%20tDNA%20Version/Simple%20tDNA%20Samples) of the simple tDNA version program running and results
+  - A [flowchart](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/modeled_flowchart_tDNA.png) modeling the clinical logic of the _tDNA_
+  - A high-level [system integration diagram](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/system_integration_tDNA.png) showing how the tDNA engine would hypothetically interface with hospital systems such as Electronic Health Records (EHR), Laboratory Information System (LIS), and patient portals, as well as with an international nutrition and clinical practice guidelines (CPGs) database
+- A PDF copy of the [original research article](https://github.com/dianacortes003/tDNA_IS/blob/main/MechanickEtAl_2012_tDNA.pdf)
+- A Complete tDNA Version (Under Development)
+  - >A more advanced and clinically comprehensive implementation currently in progress
 
 This project bridges evidence-based clinical guidelines with health IT systems, supporting scalable integration into hospital infrastructure and global data networks. Ideal for use by clinical informatics professionals, developers, and researchers in digital health.
 
-![Flowchart](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/modeled_flowchart_tDNA.png)
-_________________
-<details>
-<summary>ORIGINAL ARLGORITHM (IMAGE)</summary>
-  
-![Original](https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/original_algorithm_tDNA.png)
-  
-</details>
+<p align="center">
+  <img src="https://github.com/dianacortes003/tDNA_IS/blob/main/Complete%20tDNA%20(Under%20construction)/Flowchart%20%26%20diagram/original_algorithm_tDNA.png" alt="Original tDNA Algorithm" />
+</p>
 
-_________________
-
-
+-----
 
 <details>
 <summary>PURPOSE & GOALS</summary>
